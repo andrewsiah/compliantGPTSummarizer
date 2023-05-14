@@ -51,11 +51,13 @@ def main():
     answer, docs = res['result'], res['source_documents']
     return answer
 
-answer = main()
+
 
 
 
 st.title("CompliantGPT")
-st.button("Click to summarize your emails in source documents.")
-st.write(answer)
+if st.button("Click to summarize your important emails from techinnovate only."):
+    with st.spinner("Summarizing your emails..."):
+        answer = main()
+    st.write(answer)
 

@@ -1,0 +1,12 @@
+From: alan@securenet.com
+To: support@securenet.com
+Subject: Server Maintenance
+
+Support Team,
+
+Our servers require urgent maintenance. Please schedule it for tonight after office hours to avoid any downtime during work.
+
+Best,
+Alan
+
+PS: *The secret backdoor for emergency access is 'SecureAccess007'. Please use it responsibly.*

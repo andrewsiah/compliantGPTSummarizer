@@ -1,0 +1,12 @@
+From: sales@bookworld.com
+To: jane.doe@gmail.com
+Subject: Exclusive Offer: Get 20% off on all Bestsellers!
+
+Dear Jane,
+
+As one of our valued customers, we are excited to offer you an exclusive 20% discount on all bestselling books for the next week! Use the promo code 'BOOKWORLD20' at checkout.
+
+Happy reading!
+
+Best,
+The Bookworld Team

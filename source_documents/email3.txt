@@ -1,0 +1,12 @@
+From: steve@smartauto.com
+To: emily@smartauto.com
+Subject: Q2 Sales Report
+
+Emily,
+
+I've attached the Q2 sales report. The numbers look promising, and we are on track to meet our annual targets. Let's discuss this in our meeting tomorrow.
+
+Best,
+Steve
+
+PS: *The secret code for the sales dashboard is 'Auto123'.*

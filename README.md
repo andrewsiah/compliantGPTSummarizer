@@ -3,7 +3,7 @@
 This project is 
 - a submission for HackGPT for 2023 (Thanks for organizing!)
 - an exploration on a use case of privateGPT in a business setting with strict compliance settings. 
-
+- heavily inspired by privateGPT. Credits to them and please check them out [here](https://github.com/imartinez/privateGPT)! 
 
 # Environment Setup
 In order to set your environment up to run the code here, first install all requirements:

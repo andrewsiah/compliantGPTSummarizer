@@ -1,15 +1,16 @@
-# privateGPT
-Ask questions to your documents without an internet connection, using the power of LLMs. 100% private, no data leaves your execution environment at any point. You can ingest documents and ask questions without an internet connection!
+# compliantGPTSummarizer
 
-Built with [LangChain](https://github.com/hwchase17/langchain) and [GPT4All](https://github.com/nomic-ai/gpt4all) and [LlamaCpp](https://github.com/ggerganov/llama.cpp)
+This project is 
+- a submission for HackGPT for 2023 (Thanks for organizing!)
+- an exploration on a use case of privateGPT in a business setting with strict compliance settings. 
 
-<img width="902" alt="demo" src="https://user-images.githubusercontent.com/721666/236942256-985801c9-25b9-48ef-80be-3acbb4575164.png">
 
 # Environment Setup
 In order to set your environment up to run the code here, first install all requirements:
 
-```shell
-pip install -r requirements.txt
+```
+poetry install
+poetry shell
 ```
 
 Then, download the 2 models and place them in a directory of your choice.
@@ -28,7 +29,7 @@ MODEL_N_CTX: Maximum token limit for both embeddings and LLM models
 Note: because of the way `langchain` loads the `LLAMA` embeddings, you need to specify the absolute path of your embeddings model binary. This means it will not work if you use a home directory shortcut (eg. `~/` or `$HOME/`).
 
 ## Test dataset
-This repo uses a [state of the union transcript](https://github.com/imartinez/privateGPT/blob/main/source_documents/state_of_the_union.txt) as an example.
+This repo contains 10 emails. 5 with secret files. 5 with promotional noise (junk).
 
 ## Instructions for ingesting your own dataset
 
